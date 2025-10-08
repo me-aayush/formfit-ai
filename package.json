@@ -2,48 +2,7 @@
   "name": "formfit-ai",
   "version": "1.0.0",
   "description": "AI-powered fitness coach for real-time exercise form correction",
-  "keywords": ["fitness", "ai", "computer-vision", "pose-detection", "react", "tensorflow"],
-  "homepage": "https://github.com/yourusername/formfit-ai#readme",
-  "bugs": {
-    "url": "https://github.com/yourusername/formfit-ai/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yourusername/formfit-ai.git"
-  },
-  "license": "MIT",
-  "author": "Your Name <your.email@example.com>",
-  
-  "main": "index.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "dependencies": {
-    "@tensorflow-models/pose-detection": "^2.0.0",
-    "@tensorflow/tfjs": "^4.15.0",
-    "@mediapipe/pose": "^0.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
-  {
-  "name": "formfit-ai",
-  "version": "1.0.0",
+  "homepage": "https://me-aayush.github.io/formfit-ai",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -57,6 +16,17 @@
     "@tensorflow/tfjs": "^4.15.0",
     "@tensorflow-models/pose-detection": "^2.0.0",
     "@mediapipe/pose": "^0.5.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
-}
 }
