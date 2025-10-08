@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 🏋️ FormFit AI - Real-Time Exercise Form Correction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-4.15.0-orange)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Pose%20Detection-green)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-In the project directory, you can run:
+**AI-powered fitness coach that analyzes your exercise form in real-time using computer vision**
 
-### `npm start`
+[Live Demo](#) • [Report Bug](#) • [Request Feature](#)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 Overview
 
-### `npm test`
+FormFit AI uses advanced pose detection technology to provide real-time feedback on your exercise form. It analyzes your movements, detects form errors, and helps you exercise safely and effectively - all through your webcam.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Demo](https://via.placeholder.com/800x400/0a0e27/ffffff?text=FormFit+AI+Demo)
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🎯 **Real-time Pose Detection** - 30fps body tracking with 17 keypoints
+- 💪 **Multiple Exercises** - Squats, Push-ups, Bicep Curls, Shoulder Press, Plank
+- 📊 **Form Analysis** - Detailed feedback on technique and common mistakes
+- 🏆 **Scoring System** - Dynamic scoring based on form quality
+- 🔄 **Rep Counting** - Automatic repetition tracking
+- 🎨 **Visual Feedback** - Live skeleton overlay and color-coded joints
+- 📱 **Responsive Design** - Works on desktop and mobile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Click here to try FormFit AI](#) *(Add your deployment link here)*
 
-### `npm run eject`
+## 🛠️ Technology Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend**: React.js, HTML5, CSS3
+- **AI/ML**: TensorFlow.js, MediaPipe Pose Detection
+- **Computer Vision**: MoveNet model (SinglePose Lightning)
+- **Camera**: WebRTC, MediaDevices API
+- **Graphics**: Canvas API for real-time skeleton rendering
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- Node.js 16+ 
+- Modern browser with camera access
+- HTTPS connection (for camera permissions)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Local Development
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/formfit-ai.git
+cd formfit-ai
 
-## Learn More
+# Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start development server
+npm start
