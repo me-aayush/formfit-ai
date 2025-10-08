@@ -2,7 +2,7 @@
   "name": "formfit-ai",
   "version": "1.0.0",
   "description": "AI-powered fitness coach for real-time exercise form correction",
-  "homepage": "https://me-aayush.github.io/formfit-ai",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -16,6 +16,11 @@
     "@tensorflow/tfjs": "^4.15.0",
     "@tensorflow-models/pose-detection": "^2.0.0",
     "@mediapipe/pose": "^0.5.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
