@@ -1,13 +1,11 @@
 {
-  "headers": [
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "routes": [
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https: http:; connect-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https: http:; media-src 'self' data: blob: https: http:;"
-        }
-      ]
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
