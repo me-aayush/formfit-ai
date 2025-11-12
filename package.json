@@ -2,7 +2,7 @@
   "name": "formfit-ai",
   "version": "1.0.0",
   "description": "AI-powered fitness coach for real-time exercise form correction",
-  "homepage": ".",
+  "homepage": "/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -20,9 +20,7 @@
     "recharts": "^3.4.1"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
+    "extends": ["react-app"]
   },
   "browserslist": {
     "production": [
