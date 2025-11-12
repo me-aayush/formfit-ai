@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './App.css';
-import { Camera, LogOut, User, TrendingUp, MessageSquare, Award, Calendar, Target, Dumbbell, Clock, Info, Menu } from 'lucide-react';
+import { Camera, LogOut, User, TrendingUp,Award, Calendar, Target, Dumbbell, Clock, Info, Menu } from 'lucide-react';
 
 /**
  * FormFit Pro - Single-file app component (keeps your original structure)
