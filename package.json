@@ -10,12 +10,19 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@mediapipe/pose": "^0.5.0",
+    "@tensorflow-models/pose-detection": "^2.0.0",
+    "@tensorflow/tfjs": "^4.15.0",
+    "lucide-react": "^0.553.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "@tensorflow/tfjs": "^4.15.0",
-    "@tensorflow-models/pose-detection": "^2.0.0",
-    "@mediapipe/pose": "^0.5.0"
+    "recharts": "^3.4.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
